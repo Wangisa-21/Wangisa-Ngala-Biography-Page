@@ -140,6 +140,7 @@ main {
 @media (max-width: 767px) {
     main {
         width: 90%;
+        border: none;
     }
 
     .origins {
