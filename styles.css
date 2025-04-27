@@ -1,9 +1,9 @@
-/* ===== BASE STYLES ===== */
+
 body {
     margin: 0;
     padding: 20px 0;
     align-items: center;
-    background-color: beige; /* Fallback for mobile */
+    background-color: beige; 
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -24,7 +24,7 @@ p {
     color: rgb(197, 113, 35);
 }
 
-/* ===== MAIN CONTAINER ===== */
+
 main {
     background-color: beige;
     border: 5px solid black;
@@ -39,7 +39,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ===== IMAGE ===== */
+/*IMAGE*/
 #wangisa-image img {
     width: 200px;
     height: 200px;
@@ -49,7 +49,7 @@ main {
     object-position: top;
 }
 
-/* ===== ORIGINS SECTION ===== */
+/*ORIGINS SECTION*/
 .origins {
     display: flex;
     flex-direction: row;
@@ -97,7 +97,7 @@ main {
     color: rgb(151, 70, 3);
 }
 
-/* ===== ASPIRATIONS SECTION ===== */
+/*ASPIRATIONS*/
 .aspirations {
     background-color: bisque;
     padding: 15px 20px;
@@ -125,7 +125,7 @@ main {
     margin-bottom: 8px;
 }
 
-/* ===== DESKTOP-ONLY STYLES ===== */
+/*DESKTOP VIEW */
 @media (min-width: 768px) {
     body {
         background-image: linear-gradient(
@@ -136,7 +136,7 @@ main {
     }
 }
 
-/* ===== MOBILE RESPONSIVE TWEAKS ===== */
+/*MOBILE VIEW*/
 @media (max-width: 767px) {
     main {
         width: 90%;
